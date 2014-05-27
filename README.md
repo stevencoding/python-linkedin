@@ -1,9 +1,3 @@
-My purpose in this project is to extend the group operation API wrappers, and create examples to operate groups, for example:
-1. read group posts; analyze if those posts are spams; if spams, delete the spams and notify the poster.
-2. check the background of the applicants of the group; if the background indicates as spammer, reject the application.
-
-Below are the original README from the original author
-
 # Python LinkedIn
 
 Python interface to the LinkedIn API
