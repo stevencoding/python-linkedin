@@ -31,5 +31,6 @@ application = linkedin_group_extra.LinkedInGroupExtra(authentication)
 # group_posts = application.get_posts(GROUP_ID, post_ids={0,1})
 # print group_posts
 
-group_post = application.decompose_post(GROUP_ID, 1)
-print group_post
+post_abs_id, creator_id, title, category, summary, attachment_title, attachment_summary \
+    = application.decompose_post(GROUP_ID, 1)
+print post_abs_id, creator_id, title, category, summary, attachment_title, attachment_summary
