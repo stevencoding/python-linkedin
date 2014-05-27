@@ -28,8 +28,8 @@ application = linkedin_group_extra.LinkedInGroupExtra(authentication)
 # group_info = application.get_group(GROUP_ID)
 # print group_info
 #
-group_posts = application.get_posts(GROUP_ID, post_ids={0,1})
-print group_posts
+# group_posts = application.get_posts(GROUP_ID, post_ids={0,1})
+# print group_posts
 
-# group_post = application.decompose_post(GROUP_ID, 1)
-# print group_post
+group_post = application.decompose_post(GROUP_ID, 1)
+print group_post
